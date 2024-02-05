@@ -45,25 +45,25 @@ class FlxVirtualPad extends FlxSpriteGroup {
 		actions = new FlxSpriteGroup();
 		actions.scrollFactor.set();
 
-		buttonA = new FlxButton(0, 0);
-		buttonB = new FlxButton(0, 0);
-		buttonC = new FlxButton(0, 0);
-		buttonD = new FlxButton(0, 0);
-		buttonE = new FlxButton(0, 0);
-		buttonV = new FlxButton(0, 0);
-		buttonX = new FlxButton(0, 0);
-		buttonY = new FlxButton(0, 0);
-		buttonZ = new FlxButton(0, 0);
+		buttonA = new FlxButton(1, 1);
+		buttonB = new FlxButton(1, 1);
+		buttonC = new FlxButton(1, 1);
+		buttonD = new FlxButton(1, 1);
+		buttonE = new FlxButton(1, 1);
+		buttonV = new FlxButton(1, 1);
+		buttonX = new FlxButton(1, 1);
+		buttonY = new FlxButton(1, 1);
+		buttonZ = new FlxButton(1, 1);
 
-		buttonLeft = new FlxButton(0, 0);
-		buttonUp = new FlxButton(0, 0);
-		buttonRight = new FlxButton(0, 0);
-		buttonDown = new FlxButton(0, 0);
+		buttonLeft = new FlxButton(1, 1);
+		buttonUp = new FlxButton(1, 1);
+		buttonRight = new FlxButton(1, 1);
+		buttonDown = new FlxButton(1, 1);
 
-		buttonLeft2 = new FlxButton(0, 0);
-		buttonUp2 = new FlxButton(0, 0);
-		buttonRight2 = new FlxButton(0, 0);
-		buttonDown2 = new FlxButton(0, 0);
+		buttonLeft2 = new FlxButton(1, 1);
+		buttonUp2 = new FlxButton(1, 1);
+		buttonRight2 = new FlxButton(1, 1);
+		buttonDown2 = new FlxButton(1, 1);
 
 		switch (DPad){
 			case UP_DOWN:
